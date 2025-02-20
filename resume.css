@@ -1,0 +1,776 @@
+* {
+    font-family: Josefin Sans;
+    margin: 0px;
+    border: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* navbar of website */
+.navbar {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),
+        -4px -4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3 ease;
+}
+
+/* navbar logo of website */
+.logos {
+    display: flex;
+    width: 100px;
+    height: 60px;
+    margin-left: 30px;
+
+}
+
+/* linkdln of website */
+.linkdln {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin-left: 75px;
+    align-items: center;
+}
+
+/* instagram of website */
+.instagram {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* twitter logo in navbar */
+.twitter {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* jo jo likha h navbar pe */
+.navbarwritten {
+    width: 668px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile {
+    width: 87px;
+    height: 15px;
+    border-right: 1.5px solid black;
+    CURSOR: POINTER;
+
+    &:hover {
+        color: #8b7668;
+    }
+}
+
+.summary {
+
+    width: 87px;
+    height: 15px;
+    CURSOR: POINTER;
+    border-right: 1.5px solid black;
+
+    &:hover {
+        color: #8b7668;
+    }
+}
+
+.experience {
+    width: 87px;
+    height: 15px;
+    border-right: 1.5px solid black;
+    CURSOR: POINTER;
+
+    &:hover {
+        color: #8b7668;
+    }
+}
+
+.education {
+    width: 87px;
+    height: 15px;
+    border-right: 1.5px solid black;
+    cursor: pointer;
+
+    &:hover {
+        color: #8b7668;
+    }
+}
+
+.skills {
+    CURSOR: POINTER;
+
+    &:hover {
+        color: #8b7668;
+    }
+}
+
+.download {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+/* download wala button */
+.downloadbutton {
+    background-color: #000000;
+    color: white;
+    width: 180px;
+    height: 40px;
+    CURSOR: POINTER;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2),
+        -4px -4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3 ease;
+}
+
+/* profile page */
+.profilepage {
+    display: flex;
+
+}
+
+.profileinfo {
+    height: 655px;
+    width: 940px;
+}
+
+.AMITMISHRA {
+    margin-top: 10px;
+    width: 940px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.amitfont {
+    COLOR: #8B7668;
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+
+}
+
+.Mishrafont {
+
+    COLOR: #8B7668;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30PX;
+    ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+
+
+}
+
+.a {
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.address {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 435px;
+}
+
+.e {
+
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.emailaddress {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 435px;
+}
+
+.p {
+    margin-left: 15px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.logoman {
+    margin-top: 2px;
+    width: 740px;
+    height: 655px;
+    background-color: #8b7668;
+}
+
+img {
+    width: 396px;
+    height: 438px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+/* css for summary*/
+.summarybackground {
+    height: 586.5px;
+    justify-content: center;
+    background-color: #0B2E33;
+}
+
+.summarywala {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titlesummary {
+    color: black;
+    width: 280.81px;
+    height: 71px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.summarylikhahua {
+    display: flex;
+    padding-top: 150px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+/*experience wala page*/
+.experiencebackground {
+    height: 1084px;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.maininfo{
+    margin-top: 15px;
+}
+.experiencewala {
+    display: flex;
+    justify-content: center;
+}
+
+.titleexperience {
+    color: black;
+    width: 350.81px;
+    height: 71px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.experiencelikhahua {
+    display: flex;
+    padding-top: 150px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    color: #8B7668;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pehladash {
+    color: #ffffff;
+    font-size: 60px;
+    align-items: center;
+    margin-right: 35px;
+    margin-top: 125px;
+}
+
+.dash {
+    font-size: 60px;
+    align-items: center;
+    margin-right: 35px;
+    margin-top: 125px;
+}
+
+.experiencedot {
+
+    width: 20px;
+    height: 20px;
+    background-color: #8b7668;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 2;
+    margin-top: 15px;
+    margin-right: 10px;
+
+}
+
+.january2023 {
+    color: #8b7668;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 85px;
+    margin-left: 620px;
+}
+
+.Salesforce {
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-left: 620px;
+}
+
+.cloudsteer {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 620px;
+}
+
+.detailexperience {
+    display: flex;
+    margin-left: 660px;
+    margin-top: 9px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.pehlapoint {
+    margin-top: 3px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.experienceline{
+    background-color: #8b7668;
+    border-radius: 2px;
+    color: #8b7668;
+    display: absolute;
+    width: 3px;
+    height: 1200px;
+    z-index: 1;
+    margin-left: 8px;
+    
+}
+.dusrapointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+    
+
+}
+.dusrapoint{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.experiencedot2{
+    width: 20px;
+    height: 20px;
+    background-color: #8b7668;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 3;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+.teesrapointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.teesrapoint{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.fourthpointdiv{
+        margin-left: 10px;
+        margin-top: 70px;
+}
+.fourthpoint{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.fifthpointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.fifthpoint{
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+.sixthpointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.sixthpoint{
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+.seventhpointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.seventhpoint{
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+.eigthpointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.eigthpoint{
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+/*2022 WALA EXPERIENCE*/
+.october2022{
+    color: #8b7668;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 105px;
+}
+.salesforceintern{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.newcloudsteer{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.experienceline2{
+    background-color: #8b7668;
+    border-radius: 2px;
+    color: #8b7668;
+    display: absolute;
+    width: 3px;
+    height: 650px;
+    z-index: 1;
+    margin-left: 8px;
+}
+.newpehlapointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.newpehlapoint{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.newdusrapointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.newdusrapoint{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.newteesrapointdiv{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.newteesrapoint{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+/*education panel wala css*/
+.educationpaneldiv{
+    background-color: #8b7668;
+    height:900px;
+    width:100%;
+    margin-top: 1380px;
+}
+.educationlikhahua {
+    display: flex;
+    padding-top: 150px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.educationwala{
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleeducation{
+    color: black;
+    width: 280.81px;
+    height: 71px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.dusradash {
+    color: #ffffff;
+    font-size: 60px;
+    align-items: center;
+    margin-right: 35px;
+    margin-top: 125px;
+    margin-left: 85px;
+}
+.september2022{
+    color:aliceblue;
+    font-size:25px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+.bcacomputerapplication{
+color:aliceblue;
+font-size:20px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 20px;
+    text-align: center;
+}
+.kurukshetra{
+    color:aliceblue;
+font-size:20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.india{
+    color:aliceblue;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+        text-align: center;
+        font-weight: 700;
+}
+.educationline{
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: absolute;
+    width: 2px;
+    height: 120px;
+    z-index: 1;
+    margin-left: 8px;
+}
+.educationdot{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 3;
+    margin-top: 30px;
+   margin-left: 830px;
+}
+.educationline2{
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: absolute;
+    width: 2px;
+    height: 120px;
+    z-index: 1;
+    margin-left: 8px;
+}
+.educationdot2{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 3;
+    margin-top: 30px;
+   margin-left: 830px;
+}
+.secondary12{
+    color:aliceblue;
+    font-size:20px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+        text-align: center;
+}
+.school{
+    color:aliceblue;
+    font-size:20px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+        text-align: center;
+}
+.board{
+    color:aliceblue;
+font-size:20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.april2019{
+    color:aliceblue;
+    font-size:35px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 120px;
+    text-align: center;
+}
+/*SKILL KI CSS*/
+.skillsbackground{
+    background-color: #ffffff;
+    height: 900px;
+    width: 100%;
+}
+.skillswala {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleskills {
+    color: black;
+    width: 210.81px;
+    height: 71px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.skillslikhahua {
+    display: flex;
+    padding-top: 150px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    color: #8B7668;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dashskill{
+        font-size: 60px;
+        align-items: center;
+        margin-right: 35px;
+        margin-top: 125px;
+}
+.pointt1st{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.pointt2nd{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt3rd{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt4th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt5th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt6th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt7th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt8th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt9th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt10th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt11th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.pointt12th{
+    color: #8b7668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 580;
+    margin-top: 50px;
+    margin-left: 300px;
+}
